@@ -1,0 +1,587 @@
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.basis {
+    width: 1500px;
+    height: 100%;
+}
+.menu {
+    width: 1500px;
+    height: 86px;
+}
+.logo {
+    position: absolute;
+    top: 28px;
+    left: 130px;
+}
+.firstInMenu {
+    position: absolute;
+    font-size: 16px;
+    top: 37px;
+    left: 917px;
+    color: black;
+    opacity: 0.6;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.secondInMenu {
+    position: absolute;
+    font-size: 16px;
+    top: 37px;
+    left: 1085px;
+    color: black;
+    opacity: 0.6;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.thirdInMenu {
+    position: absolute;
+    font-size: 16px;
+    top: 37px;
+    left: 1210px;
+    color: black;
+    opacity: 0.6;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fourthInMenu {
+    position: absolute;
+    font-size: 16px;
+    top: 37px;
+    left: 1349px;
+    color: black;
+    opacity: 0.6;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bunner {
+    position: absolute;
+    top: 86px;
+    width: 1500px;
+    height: 844px;
+    background: #54A3DA;
+}
+.bunner_left {
+    position: relative;
+    width: 576px;
+    height: 349px;
+    top: 240px;
+    left: 160px;
+}
+.bigTextInBunner {
+    position: relative;
+    top: -18px;
+    font-size: 52px;
+    color: white;
+    width: 482px;
+    height: 110px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+.smallTextInBunner {
+    position: relative;
+    font-size: 24px;
+    top: -18px;
+    word-spacing: -3px;
+    color: white;
+    font-weight: 450;
+}
+.free_div {
+    position: relative;
+    top: 10px;
+    height: 21px;
+    width: 100%;
+}
+.singUpInBunner {
+    position: absolute;
+    font-size: 16px;
+    color: white;
+}
+.free {
+    position: absolute;
+    left: 90px;
+    color: white;
+    font-size: 16px;
+}
+.free span {
+    display: inline;
+	background-color: #FFCE54;
+	box-shadow: 10px 0 0 #FFCE54, -10px 0 0 #FFCE54;
+    border-radius: 5px;
+	padding: 3px 0;
+	color: #FFFFFF;
+	font-size: px;
+}
+.singUpDiv {
+    position: relative;
+    top: 53px;
+    height: 55px;
+    width: 576px;
+}
+.inputSingUpBunner {
+    position: relative;
+    width: 400px;
+    height: 55px;
+    border: 0px;
+    padding-left: 25px;
+    border-radius: 7px;
+}
+.singUpInBannerbtn {
+    position: relative;
+    right: -28px;
+    width: 117px;
+    height: 58px;
+    background-color: #77C344;
+    border: none;
+    color: white;
+    padding: 20px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 7px;
+}
+.singUpInBannerbtn:active {
+    background-color: #61a732;
+    width: 105px;
+    height: 53px;
+    padding: 19px 24px;
+}
+.handWithPhone {
+    position: relative;
+    bottom: 307px;
+    left: 858px;
+}
+.cloudOne {
+    position: absolute;
+    left: 120px;
+    top: 148px;
+} 
+.cloudTwo {
+    position: absolute;
+    width: 38px;
+    height: 21px;
+    left: 1248px;
+    top: 231px;
+} 
+.cloudThree {
+    position: absolute;
+    width: 56px;
+    height: 32px;
+    left: 1364px;
+    top: 699px;
+} 
+.cloudFour {
+    position: absolute;
+    width: 32px;
+    height: 18px;
+    left: 153px;
+    top: 738px;
+} 
+.clients {
+    position: relative;
+    width: 1500px;
+    height: 159px;
+    top: 844px;
+    background: #F8F8F8;
+}
+.evernoteLogo {
+    position: relative;
+    width: 169px;
+    height: auto;
+    top: 55px; 
+    left: 75px;
+}
+.microsoftLogo {
+    position: relative;
+    width: 142px;
+    height: auto;
+    top: 46px;
+    left: 266px;
+}
+.googleLogo {
+    position: relative;
+    width: 131px;
+    height: auto;
+    top: 57.5px;
+    left: 404px;
+}
+.sonyLogo {
+    position: relative;
+    width: 132px;
+    height: auto;
+    top: 47px;
+    left: 556px;
+}
+.firefoxLogo {
+    position: relative;
+    width: 112px;
+    height: auto;
+    top: 50px;
+    left: 700px;
+}
+.whyUs {
+    position: absolute;
+    width: 1371px;
+    height: 780px;
+    left: 129px;
+    top: 1206px;
+}
+.whyQuestion {
+    position: relative;
+    font-size: 40px;
+    margin-top: 0;
+    left: 418px;
+    color: #2D394C;
+}
+.content_left {
+    position: absolute;
+    width: 501px;
+    height: 588px;
+    top: 158px;
+    margin-left: 0;
+}
+.content_left_one {
+    position: absolute;
+    width: 486px;
+    height: 110px;
+    margin-top: 0;
+    left: 15px;
+}
+.content_left_two {
+    position: absolute;
+    width: 501px;
+    height: 122px;
+    top: 143px;
+}
+.content_left_three {
+    position: absolute;
+    width: 501px;
+    height: 115px;
+    top: 316px;
+}
+.content_left_four {
+    position: absolute;
+    width: 491px;
+    height: 126px;
+    left: 10px;
+    top: 462px;
+}
+.content_left_one_img_two {
+    position: absolute;
+    width: 31px;
+    height: auto;
+    top: 9px;
+    left: 19px;
+}
+.heading_in_content_left_one {
+    position: absolute;
+    display: inline-block;
+    left: 70px;
+    top: -18px;
+    font-size: 22px;
+    color: #2D394C;
+}
+.heading_in_content_left_two {
+    position: absolute;
+    display: inline-block;
+    left: 79px;
+    top: -10px;
+    font-size: 22px;
+    color: #2D394C;
+}
+.heading_in_content_left_three {
+    position: absolute;
+    display: inline-block;
+    left: 74px;
+    top: -13px;
+    font-size: 22px;
+    color: #2D394C;
+}
+.heading_in_content_left_four {
+    position: absolute;
+    display: inline-block;
+    left: 62px;
+    top: -8px;
+    font-size: 22px;
+    color: #2D394C;
+}
+.text_in_content_left_one{
+    position: absolute;
+    font-size: 14px;
+    color: #9499A2;
+    left: 0;
+    top: 42px;
+}
+.text_in_content_left_two{
+    position: absolute;
+    font-size: 14px;
+    color: #9499A2;
+    left: 19px;
+    top: 54px;
+}
+.text_in_content_left_three{
+    position: absolute;
+    font-size: 14px;
+    color: #9499A2;
+    left: 19px;
+    top: 47px;
+}
+.text_in_content_left_four{
+    position: absolute;
+    font-size: 14px;
+    color: #9499A2;
+    left: 9px;
+    top: 58px;
+}
+.macbook {
+    position: absolute;
+    width: 1100px;
+    height: auto;
+    left: 271px;
+    top: 170px;
+}
+.why_different {
+    position: absolute;
+    width: 1500px;
+    height: 733px;
+    top: 2103px;
+    background: #F1F1F2;
+}
+.why_different_question {
+    position: absolute;
+    font-size: 40px;
+    left: 414px;
+    top: 165px;
+    color: #2D394C;
+}
+.content {
+    position: absolute;
+    width: 733px;
+    height: 261px;
+    top: 350px;
+    left: 124px;
+}
+.cloud_content {
+    position: absolute;
+    top: 10px;
+    filter: brightness(0) invert(1);
+}
+.cloud_content_two {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    filter: brightness(0) invert(1);
+}
+.heading_content {
+    position: absolute;
+    font-size: 28px;
+    left: 92px;
+    margin-top: 5px;
+    word-spacing: 5px;
+    color: #2D394C;
+}
+.text_content {
+    position: absolute;
+    font-size: 16px;
+    top: 69px;
+    left: 9px;
+}
+.pagination {
+    position: absolute;
+    width: 119px;
+    height: 24px;
+    bottom: 0;
+    right: 0;
+}
+.one_pagination {
+    position: absolute;
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 10px;
+    background-color: #64A4D7;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 3px 7px 3px 7px;
+    border-radius: 20px;
+}
+.two_pagination {
+    position: absolute;
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 40px;
+    background-color: #64a3d700;
+    border: none;
+    color: #2D394C;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 3px 7px 3px 7px;
+    border-radius: 20px;
+}
+.three_pagination {
+    position: absolute;
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 70px;
+    background-color: #64a3d700;
+    border: none;
+    color: #2D394C;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 3px 7px 3px 7px;
+    border-radius: 20px;
+}
+.four_pagination {
+    position: absolute;
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 100px;
+    background-color: #64a3d700;
+    border: none;
+    color: #2D394C;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 3px 7px 3px 7px;
+    border-radius: 20px;
+}
+.boat {
+    position: absolute;
+    left: 795px;
+}
+.sinUp_end {
+    position: absolute;
+    width: 859px;
+    height: 233px;
+    top: 2983px;
+    left: 350px;
+}
+.heading_singUp_end {
+    position: absolute;
+    font-size: 40px;
+    left: 181px;
+    margin-top: -15px;
+    color: #5A626E;
+}
+.text_singUp_end {
+    position: absolute;
+    font-size: 20px;
+    left: 85px;
+    top: 76px;
+    color: #5A626E;
+}
+.inputSingUp_end {
+    position: absolute;
+    margin-left: 0;
+    bottom: 0;
+    width: 600px;
+    height: 55px;
+    outline: #b3b3b3;
+    padding-left: 25px;
+    border-radius: 7px;
+}
+.singUpInEndbtn {
+    position: absolute;
+    width: 191px;
+    height: 60px;
+    right: 0px;
+    bottom: 0;
+    background-color: #77C344;
+    border: none;
+    color: white;
+    padding: 20px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 7px;
+}
+.singUpInEndbtn:active {
+    background-color: #61a732;
+    width: 185px;
+    height: 57px;
+}
+.footer {
+    position: absolute;
+    width: 1500px;
+    height: 140px;
+    top: 3318px;
+    background: #F8F8F8;
+}
+.logo_ch_b {
+    position: absolute;
+    left: 130px;
+    top: 57px;
+}
+.firstInMenu_footer {
+    position: absolute;
+    font-size: 16px;
+    color: #4D5664;
+    top: 60px;
+    left: 750px;
+}
+.secondInMenu_footer {
+    position: absolute;
+    font-size: 16px;
+    color: #4D5664;
+    top: 60px;
+    left: 840px;
+}
+.thirdInMenu_footer {
+    position: absolute;
+    font-size: 16px;
+    color: #4D5664;
+    top: 60px;
+    left: 950px;
+}
+.fourthInMenu_footer {
+    position: absolute;
+    font-size: 16px;
+    color: #4D5664;
+    top: 60px;
+    left: 1100px;
+}
+.fifthInMenu_footer {
+    position: absolute;
+    font-size: 16px;
+    color: #4D5664;
+    top: 60px;
+    left: 1200px;
+}
+.vector {
+    position: absolute;
+    background: #5f6670;
+    width: 2px;
+    height: 28px;
+    top: 58px;
+    left: 1260px;
+}
+.twitter_contact {
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 57px;
+    left: 1280px;
+}
+.fb_contact {
+    position: absolute;
+    width: 20px;
+    height: auto;
+    top: 60px;
+    left: 1330px;
+}
+.g_contact {
+    position: absolute;
+    width: 20px;
+    height: auto;
+    top: 60px;
+    left: 1375px;
+}
